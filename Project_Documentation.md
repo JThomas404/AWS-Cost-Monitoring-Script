@@ -74,13 +74,11 @@ To ensure the functionality of the script, I performed testing on both **macOS**
 
 Successful test output from the shell script after running on a macOS system.
 
-<div align="center">
-  ![ShellScript_Test_Successful.png](images/ShellScript_Test_Successful.png)
-</div>
+![ShellScript Test Successful](images/ShellScript_Test_Successful.png)
 
 The test result confirms that the script runs and functions as intended, providing the correct output and displaying cost data from AWS.
 
----
+--- 
 
 ## Conclusion
 
