@@ -72,7 +72,7 @@ cat script.sh
 
 #### **2.1 `date` Command**
 - **Function**: The `date` command is used for formatting and manipulating dates.
-- **Project Context**: Utilized to calculate the first day of the previous month and yesterday’s date, which are then used to define the time period for the AWS Cost Explorer query.
+- **Project Context**: Utilised to calculate the first day of the previous month and yesterday’s date, which are then used to define the time period for the AWS Cost Explorer query.
 
 ```bash
 Start=$(date -v-1d +%Y-%m-01)
