@@ -94,7 +94,7 @@ $ ./aws_cost_monitor.sh --detailed
 
 ## Additional Info  
 
-I designed this project from scratch with the assistance of AI (GPT-4-turbo & Claude 3.5 Haiku), which guided me through the entire development process. As a beginner who was still fresh to Bash, I sought structured support to learn effectively while building a functional project following best practices. The AI followed a heuristic approach when guiding, providing me with incremental steps and explanations rather than simply telling me the answer or doing the work for me. This method allowed me to actively learn and expedite my skills significantly.  
+I designed this project from scratch with the assistance of AI (GPT-4-turbo & Claude 3.5 Haiku), which guided me through this project. As a beginner who was still fresh to Bash, I sought structured support to learn effectively while building a functional project following best practices. The AI followed a heuristic approach when guiding, providing me with incremental steps and explanations rather than simply telling me the answer or doing the work for me. This method allowed me to actively learn and expedite my skills significantly.  
 
 You can find the prompt I used and copy it to use yourself here: [AI Prompt](AI_Prompt.md)  
 
