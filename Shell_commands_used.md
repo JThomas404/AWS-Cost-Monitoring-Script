@@ -1,8 +1,8 @@
-# Commands Used when creating this script
+# **Commands Used When Creating This Script**
 
 ### **Summary of Commands Used**
 
-This document outlines all the commands used in AWS Cost Monitoring project, including those related to setting up the environment, preparing the script, querying AWS Cost Explorer, and processing the output. It also includes commands for navigating the terminal and managing files.
+This document outlines all the commands used in the AWS Cost Monitoring project, covering the setup of the environment, script preparation, querying AWS Cost Explorer, processing the output, and navigating the terminal. It also includes commands for file management and text processing.
 
 #### **Key Areas Covered**:
 - **Shell Setup**: `aws configure`, `curl`, `jq`, `awk`, `date`, `getopts`
@@ -20,17 +20,17 @@ This document outlines all the commands used in AWS Cost Monitoring project, inc
 ### 1. **Setting Up Your Environment**
 
 #### **1.1 `aws configure`**
-- **Function**: This command configures AWS CLI with the necessary credentials and region.
-- **Project Context**: Used to set up AWS access keys, secret keys, and the default region for querying AWS Cost Explorer.
+- **Function**: Configures AWS CLI with the necessary credentials and region.
+- **Project Context**: This command is used to set up AWS access keys, secret keys, and the default region for querying AWS Cost Explorer.
   
 ```bash
 aws configure
 ```
-- **Explanation**: You are prompted to enter AWS Access Key ID, Secret Access Key, default region name, and default output format. This setup ensures that the AWS CLI is authenticated and ready to interact with AWS services.
+- **Explanation**: You will be prompted to enter AWS Access Key ID, Secret Access Key, default region name, and default output format. This setup ensures that the AWS CLI is authenticated and ready to interact with AWS services.
 
 #### **1.2 `curl`**
 - **Function**: A tool for transferring data from or to a server, typically used for APIs.
-- **Project Context**: This command could be used to test the connectivity to AWS APIs or query services manually, especially in debugging or if integrating external APIs.
+- **Project Context**: This command could be used to test connectivity to AWS APIs or query services manually, especially for debugging or when integrating external APIs.
   
 ```bash
 curl https://api.example.com/data
@@ -43,7 +43,7 @@ curl https://api.example.com/data
 ```bash
 touch script.sh
 ```
-- **Explanation**: This command is used to create a new shell script file.
+- **Explanation**: Used to create a new shell script file.
 
 - **`chmod`**: Changes file permissions, making the script executable.
   
@@ -86,7 +86,7 @@ For Linux/Windows systems, the command would look like:
 Start=$(date -d "yesterday" +%Y-%m-01)
 End=$(date -d "yesterday" +%Y-%m-%d)
 ```
-- **Why not Python?** I chose `date` because it’s simple, lightweight, and doesn't require additional dependencies, making it easier to execute directly from the shell.
+- **Why not Python?** I chose `date` because it’s simple, lightweight, and doesn’t require additional dependencies, making it easier to execute directly from the shell.
 
 #### **2.2 `getopts` Command**
 - **Function**: This command is used for parsing command-line options in a shell script.
