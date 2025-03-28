@@ -113,7 +113,15 @@ done
 
 ---
 
-### 6. **Automation of the Script**
+### 6. **Testing the Script**
+
+I ran the script in both **simple mode** and **detailed mode**. I then tested whether the output will return an error if I do not input either variable **'-s'** or **'-d'**. Below is a successful test execution:
+
+![Successful Test Output](images/ShellScript_Test_Successful.png)
+
+---
+
+### 7. **Automation of the Script**
 
 While the script does not include built-in scheduling functionality, I used **external scheduling tools** to automate the execution of the script at regular intervals.
 
