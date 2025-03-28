@@ -100,6 +100,6 @@ You can find the prompt I used and copy it to use yourself here: [AI Prompt](AI_
 
 For an in-depth look at the steps I took and the challenges I encountered while creating this script, see my project documentation here: [Project Documentation](Project_Documentation.md)
 
-To get a full list of the shell commands I used throughout the project and their functions, including alternatives I considered, you can refer to this file: [Shell Commands Used](shell_commands_used.md)
+To get a full list of the shell commands I used throughout the project and their functions, including alternatives I considered, you can refer to this file: [Shell Commands Used](Shell_commands_used.md)
 
 ---
