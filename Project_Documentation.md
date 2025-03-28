@@ -1,4 +1,3 @@
-```markdown
 # Project Documentation: Shell Script for Cross-Platform Date Handling in AWS Cost Query
 
 ## Project Overview
@@ -11,7 +10,7 @@ This project involved creating a shell script that works cross-platform, specifi
 
 ---
 
-## Steps and Issues Overcome
+## Steps and Issues Encountered
 
 ### **1. Cross-Platform Date Calculation Issue**
 One of the primary challenges was ensuring the script worked on both macOS and Linux/Windows systems. The `date` command has different syntax across these platforms:
@@ -34,6 +33,12 @@ else
 fi
 ```
 
+---
+
+The above code checks the operating system type using the `OSTYPE` variable and applies the correct syntax for calculating dates on macOS or Linux/Windows systems. This ensures the script works seamlessly on different platforms, allowing for accurate date range calculations.
+
+---
+
 ### **Scenario**: Cross-Platform Date Handling
 
 - **Objective**: Ensure the script works seamlessly on different systems.
@@ -50,7 +55,7 @@ aws ce get-cost-and-usage --time-period Start=$Start,End=$End --granularity MONT
 
 ---
 
-## Testing
+## Testing The Script
 
 To ensure the functionality of the script, I performed testing on both **macOS** and **Linux** environments.
 
@@ -65,20 +70,20 @@ To ensure the functionality of the script, I performed testing on both **macOS**
 
 ---
 
-## Test Output Screenshot
+## Test Output
 
-Below is a screenshot of a successful test output from the shell script after running on a macOS system.
+Successful test output from the shell script after running on a macOS system.
 
 <div align="center">
   ![ShellScript_Test_Successful.png](images/ShellScript_Test_Successful.png)
 </div>
 
-The test result confirms that the script is functioning as intended, providing the correct output and displaying cost data from AWS.
+The test result confirms that the script runs and functions as intended, providing the correct output and displaying cost data from AWS.
 
 ---
 
 ## Conclusion
 
-The shell script is now cross-platform, reliable, and able to query AWS for cost data based on dynamically calculated dates. It works seamlessly on macOS and Linux/Windows, ensuring consistent results regardless of the system type.
+The shell script is now cross-platform, reliable, and able to query AWS for cost data based on dynamically calculated dates. It works on macOS and Linux/Windows, ensuring consistent results regardless of the system type.
 
 ---
